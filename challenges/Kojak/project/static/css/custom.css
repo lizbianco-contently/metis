@@ -1,0 +1,39 @@
+#number-projects-nd {
+    font-size: 60px;
+}
+
+#total-donations-nd {
+    font-size: 60px;
+}
+
+.dc-chart g.row text {
+    fill: black;
+    font-size: 12px;
+}
+
+.button {
+    display: flex;
+    text-align: middle;
+    vertical-align: middle;
+    padding: 6px 24px;
+    border: 3px solid #ffffff;
+    border-radius: 5px;
+    background: #2c3e50;;
+    font: normal normal bold 14px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:hover,
+.button:focus {
+
+    background: #354a60;
+    background: -webkit-gradient(linear, left top, left bottom, from(#354a60), to(#354a60));
+
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #1a2530;
+    background: -webkit-gradient(linear, left top, left bottom, from(#1a2530), to(#2c3e50));
+
+}
